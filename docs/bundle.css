@@ -181,13 +181,13 @@ body {
 }
 h1 {
   color: #666;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .price-display {
-  margin-bottom: 10px;
-  font-size: 14px;
+  margin-bottom: 15px;
+  font-size: 20px;
 }
 .price-display > .exchange {
   color: #0062df;
@@ -195,6 +195,10 @@ h1 {
 }
 .price-display > .price {
   margin-left: 10px;
+}
+.madeby-button {
+  display: block;
+  margin-top: 30px;
 }
 .madeby-button > img {
   display: block;

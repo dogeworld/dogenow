@@ -4,13 +4,6 @@ v0.0.1 | 20210109
 Author: Sim Young Jae
 License: MIT
 */
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosanskr/v13/PbykFmXiEBPT4ITbgNA5Cgm20A.otf) format('opentype');
-}
 html,
 body,
 div,
@@ -147,10 +140,6 @@ table {
 html {
   -webkit-tap-highlight-color: transparent;
 }
-html,
-body {
-  font-family: 'Noto Sans KR', sans-serif;
-}
 a,
 button,
 input[type=button],
@@ -181,7 +170,7 @@ body {
 }
 h1 {
   color: #666;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 30px;
 }
@@ -198,7 +187,7 @@ h1 {
 }
 .madeby-button {
   display: block;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .madeby-button > img {
   display: block;
